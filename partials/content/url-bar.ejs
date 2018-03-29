@@ -4,10 +4,8 @@
         <input id="url-bar" type="text" name="url" placeholder="Enter a URL..." />
         <button type="submit"><i class="material-icons">arrow_forward</i></button>
     </form>
-    <% if (locals.home && locals.home !== false) { %>
-        <a href="/netneutrality/home">
-            <i class="material-icons">home</i>
-        </a>
-    <% } %>
+    <button type="button" id="home-button">
+        <i class="material-icons">home</i>
+    </button>
 </header>
 <progress id="page-progress"></progress>
